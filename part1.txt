@@ -2,15 +2,16 @@
 
 1. What command would you use to go "up" a directory. (e.g. from space/planets to space/)?
 
+You should use `cd ..`.
 
 2. What does the "~" character mean?  (i.e. where would `cd ~` take you?)
 
+The tilde character is shorthand for the environment variable $HOME, which refers the current user's home directory: "/home/{username}".
 
 3. What is the keyboard shortcut for jumping to the beginning of the line?
 
+The keyboard shortcut for jumping to the beginning of the line is `HOME` or `CTRL` + `A`.
 
 4. What is a command that you type to get help with other commands and programs?
 
-
-
-
+You can refer to man (manual) pages for the APIs of Linux programs. To access a man page for a particular program, type `man` followed by the program name (e.g., `man git`, `man ls`).
